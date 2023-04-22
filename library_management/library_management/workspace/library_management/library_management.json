@@ -1,0 +1,49 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"wse5QrNT5X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Management</span>\",\"col\":12}},{\"id\":\"ihofUnvxx0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"qKTkhDDzQ9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Books\",\"col\":3}},{\"id\":\"EtiQcjthqr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Members\",\"col\":3}},{\"id\":\"k1MeSdnGqQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transactions\",\"col\":3}}]",
+ "creation": "2023-04-22 14:29:34.770657",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "education",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Library Management",
+ "links": [],
+ "modified": "2023-04-22 16:33:30.786005",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Books",
+   "link_to": "Books",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Members",
+   "link_to": "Members",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Transactions",
+   "link_to": "Transactions",
+   "type": "DocType"
+  }
+ ],
+ "title": "Library Management"
+}
