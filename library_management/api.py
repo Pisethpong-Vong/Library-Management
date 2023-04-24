@@ -14,7 +14,7 @@ def library_book(**kwargs):
 
     page_number = int(kwargs.get('current_page', 1))
 
-    per_page = 2
+    per_page = 20
     
     all_book = frappe.db.get_list(doctype_books, fields=['name'], ignore_permissions=True)
     
