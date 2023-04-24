@@ -35,7 +35,7 @@ def library_book(**kwargs):
 
     data_response = frappe.db.get_list(doctype_books, fields=['name', 'title', 'authors', 'isbn', 'publisher', 'page'], filters={'name': ['in', datalist]}, ignore_permissions=True)
 
-    meta = {
+    page = {
         "current_page": int(page_number),
         "last_page": math.ceil(total / per_page),
         "total": total
@@ -43,7 +43,7 @@ def library_book(**kwargs):
     
     response = {
         'listdata': data_response,
-        "meta": meta
+        "pages": page
     }
 
     frappe.response["message"] = response
