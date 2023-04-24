@@ -6,7 +6,7 @@ doctype_books = 'Books'
 @frappe.whitelist(allow_guest=True)
 def library_book(**kwargs):
     '''
-    function convert list to pagination for api response.
+    function api response pagination for books.
     param : kwargs
     '''
     
