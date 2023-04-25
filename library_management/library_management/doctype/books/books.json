@@ -11,9 +11,11 @@
   "title",
   "authors",
   "isbn",
-  "column_break_au6re",
   "publisher",
-  "page"
+  "column_break_au6re",
+  "page",
+  "book_stock",
+  "rent_fee"
  ],
  "fields": [
   {
@@ -48,11 +50,22 @@
   {
    "fieldname": "column_break_au6re",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "book_stock",
+   "fieldtype": "Data",
+   "label": "Stock"
+  },
+  {
+   "fieldname": "rent_fee",
+   "fieldtype": "Float",
+   "hidden": 1,
+   "label": "Rent Fee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-22 14:17:51.384703",
+ "modified": "2023-04-25 08:46:32.832803",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Books",

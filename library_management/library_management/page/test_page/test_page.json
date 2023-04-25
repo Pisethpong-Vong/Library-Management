@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2023-04-24 09:45:52.480471",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-04-24 09:45:52.480471",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "test-page",
+ "owner": "Administrator",
+ "page_name": "test-page",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "test page"
+}
