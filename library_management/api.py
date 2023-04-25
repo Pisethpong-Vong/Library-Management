@@ -75,16 +75,16 @@ def update_stock(type, title, docname, qty, rent_fee):
 
 @frappe.whitelist(allow_guest=True)
 def create_book():
-    data_url = requests.get(f"https://frappe.io/api/method/frappe-library?page=2&title=and").json()
+    data_url = requests.get(f"https://frappe.io/api/method/frappe-library?page=1&title=and").json()
 
     data = data_url.get('message')
-
+    
     for i in data:
         doc = frappe.new_doc(doctype_books)
-        doc.title = i.title
-        doc.authors = i.authors
-        doc.isbn = i.isbn
-        doc.publisher = i.publisher
+        doc.title = i.get('title')
+        doc.authors = i.get('authors')
+        doc.isbn = i.get('isbn')
+        doc.publisher = i.get('publisher')
         doc.insert(ignore_permissions=True)
 
-    frappe.response["message"] = "Saved Successfully"
+        frappe.response["message"] = "Saved Successfully"
